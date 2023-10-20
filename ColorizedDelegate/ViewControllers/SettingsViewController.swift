@@ -7,7 +7,7 @@
 
 import UIKit
 
-class SettingsViewController: UIViewController {
+final class SettingsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,5 +25,8 @@ class SettingsViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
+    @IBAction func doneButtonPressed() {
+        dismiss(animated: true)
+    }
+    
 }
